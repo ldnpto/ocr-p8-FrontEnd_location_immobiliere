@@ -1,0 +1,27 @@
+@use "/src/style/variables.scss" as *;
+
+.logement-gallery-container {
+    display: flex;    
+    justify-content: center;    
+    width: 100%;
+    margin-bottom: 5%;
+    
+
+    .logement-gallery {        
+        display: grid;
+        padding: 5%;
+        width: 83%;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        column-gap: 5%;
+        row-gap: 30px;
+        justify-self: stretch;       
+        
+        background-color: $Background-color;
+        border-radius: 1.5rem;
+        //box-shadow: $Shadow-carousel;
+             
+    
+    }
+}
+

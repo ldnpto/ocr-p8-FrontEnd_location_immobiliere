@@ -1,0 +1,89 @@
+@use "/src/style/variables.scss" as *;
+
+.collapse {
+    
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    max-width: 1440px;
+    width: 85%;
+
+	
+
+	@media screen and (min-width: $Breakpoint-desktop) {
+		margin: 31px auto 0;
+	}
+
+
+    
+	&__header {
+		background: $Theme-color;
+		color: $Footer-color;
+		cursor: pointer;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 30px;
+		padding: 7px 15px;
+		border-radius: 5px;
+		
+
+		@media screen and (min-width: $Breakpoint-desktop) {
+			height: 47px;
+		}
+
+		h2 {
+			
+            color : $Text-color;
+			@media screen and (min-width: $Breakpoint-desktop) {
+				
+			}
+		}
+    }
+
+    &__toggle {
+        opacity: 0;
+        color: $Theme-color;
+        background: $Background-color;
+        border-radius: 5px;        
+        margin-bottom: 30px;
+		
+
+		transition: all 0.9s ease-in-out, opacity 0.9s ease-in-out;
+
+        p {
+            margin: 0;
+            padding: 22px 15px;
+            pointer-events: none;
+            color : $Text-color-navbar;
+			height: 0;
+        }
+    }
+
+
+}
+
+.animated {
+	opacity: 1;
+	height: auto;
+	transition: height 0.9s ease-in-out, opacity 0.9s ease-in-out;
+
+	p {
+		height: auto;
+	}
+}
+
+.chevron {
+	width: 9px;
+	transform: rotate(0deg);
+	transition: 0.4s 0.4s ease-in-out;
+
+	@media screen and (min-width: $Breakpoint-desktop) {
+		width: 15px;
+	}
+}
+
+.rotated {
+	transform: rotate(180deg);
+	transition: 0.4s ease-in-out;
+}

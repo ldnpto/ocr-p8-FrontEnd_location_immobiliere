@@ -33,7 +33,7 @@ export default function LogementPage() {
 		
 			const response = await fetch(`http://localhost:8080/api/properties/${id}`);
 			if (!response.ok) {
-				throw new Error('Network response was not ok');
+				window.location.href = '/404';				
 			}
 			return response.json();		
 	};

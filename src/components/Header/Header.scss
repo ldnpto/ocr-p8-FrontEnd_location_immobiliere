@@ -1,8 +1,18 @@
+@use "/src/style/variables.scss" as *;
+
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     max-width: 1440px;
     margin: 0 auto; 
+
+    @media screen and (max-width: 768px) {
+        justify-content: right;
+        .logo {            
+            width: 120px;            
+        }
+        max-width: 83%;
+    }
     
 }

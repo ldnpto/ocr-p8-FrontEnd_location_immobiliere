@@ -12,7 +12,17 @@
         padding: 5%;
         width: 83%;
         grid-template-columns: 1fr 1fr 1fr;
+
+        @media screen and (max-width: 768px) {
+            padding: 0%;
+            width: 92%;
+            grid-template-columns: 1fr;
+        }
+
         grid-template-rows: 1fr;
+
+
+
         column-gap: 5%;
         row-gap: 30px;
         justify-self: stretch;       

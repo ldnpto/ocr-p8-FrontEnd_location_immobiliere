@@ -7,11 +7,23 @@
     overflow: hidden;
     max-width: 1440px;
     width: 85%;
-
 	
+	
+	@media screen and (min-width: 768px) {
+		margin-bottom: 0px;	
 
-	@media screen and (min-width: $Breakpoint-desktop) {
-		margin: 31px auto 0;
+	}
+
+	&__description {
+
+		@media screen and (min-width: 768px) {
+			margin-bottom: 0px;
+		}
+	}
+
+	&_Equipement {
+		width: 100%;
+
 	}
 
 
@@ -35,7 +47,8 @@
 		h2 {
 			
             color : $Text-color;
-			@media screen and (min-width: $Breakpoint-desktop) {
+			@media screen and (min-width: 768px) {
+				font-size: 1rem;
 				
 			}
 		}
@@ -46,8 +59,7 @@
         color: $Theme-color;
         background: $Background-color;
         border-radius: 5px;        
-        margin-bottom: 30px;
-		
+        margin-bottom: 0px;
 
 		transition: all 0.9s ease-in-out, opacity 0.9s ease-in-out;
 
@@ -57,7 +69,17 @@
             pointer-events: none;
             color : $Text-color-navbar;
 			height: 0;
+
+			@media screen and (max-width: 768px) {
+				margin-bottom: 10px;
+				padding-bottom: 10px;
+				padding-top: 10px;
+			}
+
         }
+
+
+
     }
 
 

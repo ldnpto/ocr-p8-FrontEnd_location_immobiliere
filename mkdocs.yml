@@ -1,0 +1,65 @@
+site_name: Kasa documentation
+repo_url: https://github.com/ldnpto/ocr-p8-FrontEnd_location_immobiliere
+site_url: "https://ldnpto.github.io/ocr-p8-FrontEnd_location_immobiliere"
+site_description: Documentation for the Kasa project
+site_author: Olivier
+repo_name: OCR Projet 8 - Kasa Location immobilière
+site_dir: docs
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+  navigation_depth: 1
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: teal
+      accent: purple 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: teal
+      accent: lime
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    annotation: material/arrow-right-circle
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - pymdownx.blocks.caption
+  - pymdownx.arithmatex:
+      generic: true
+  - admonition
+  - footnotes
+  - attr_list
+  - md_in_html
+plugins:
+  - glightbox
+nav:
+  - Introduction: "index.md"
+  - Realisations Desktop: "realisations-desktop.md"
+  - Realisations Mobile & tests: "realisations-mobile&tests.md"
+  - Conclusion: "conclusion.md"

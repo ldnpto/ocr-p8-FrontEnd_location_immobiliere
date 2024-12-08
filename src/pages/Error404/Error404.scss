@@ -2,25 +2,33 @@
 
 .error {
     text-align: center;
-    height: 80vh;
-
+    
     h1 {
         color: $Theme-color;
         font-size: 8rem;
         margin-top: 0.5em;
-        margin-bottom: 0.5em;
+        margin-bottom: 1em;
     }
 
     h2 {
         color: $Theme-color;
         font-size: 28px;
         font-weight: 400;
-        margin-bottom: 5rem;
+        margin-bottom: 7rem;
+
+        @media screen and (max-width: 768px) {
+            font-size: 24px;
+        }
 
     }
 
     a {
         color: black;
         text-decoration: underline;
+        margin-bottom: 40px;
+    }
+    hr {
+        border-width: 0px;
+        margin-bottom: 120px;
     }
 }

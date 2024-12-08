@@ -5,7 +5,9 @@
     height: 100%;
 
     background-color: $Background-color;
-    
+    @media screen and (max-width: 768px) {
+        background-color: transparent;
+    }
 
     .logement-card {   
         

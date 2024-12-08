@@ -29,7 +29,10 @@
         
         background-color: $Background-color;
         border-radius: 1.5rem;
-        //box-shadow: $Shadow-carousel;
+        
+        @media screen and (max-width: 768px) {
+            background-color: transparent;
+        }
              
     
     }

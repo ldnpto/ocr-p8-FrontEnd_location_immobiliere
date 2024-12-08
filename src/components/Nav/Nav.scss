@@ -2,6 +2,10 @@
 .nav-header {
     display: flex;
     justify-content: flex-end;
+    margin-right : 30px;
+    @media screen and (max-width: 768px) {
+        margin-right : 0px;
+    }
 
     a{
         text-decoration: none;
@@ -20,7 +24,7 @@
 
         @media screen and (max-width: 768px) {
             justify-content: flex-end;
-            width: 100px;
+            width: 100px;            
         }
     }
 }

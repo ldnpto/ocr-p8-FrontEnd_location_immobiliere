@@ -49,5 +49,9 @@
         line-height: 26px;
         color: White;
         text-shadow: 2px 2px 8px #000000;
+
+        @media screen and (max-width: 768px) {
+            display: none;
+        }
     }
 }

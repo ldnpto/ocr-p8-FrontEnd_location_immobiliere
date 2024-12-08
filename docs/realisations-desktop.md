@@ -10,7 +10,7 @@ Mise à jour de la page "main.tsx" en utilisant la librairie BrowserRouter et de
 Création de composants pour la bannière, la gallerie de logements, les cartes de logements.
 Récupération des informations des logements via requête à l'api backend et affichage des différents logements sous forme de cartes, le lien du logement dans la carte
 
-![Home](/src/assets/images/Kasa-Home.png/){ width="300" }
+![Home](https://github.com/ldnpto/ocr-p8-FrontEnd_location_immobiliere/src/assets/images/Kasa - Home.png){ width="300" }
 /// caption
 Home page
 ///

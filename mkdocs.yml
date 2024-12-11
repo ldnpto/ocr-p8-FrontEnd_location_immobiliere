@@ -60,6 +60,7 @@ plugins:
   - glightbox
 nav:
   - Introduction: "index.md"
-  - Realisations Desktop: "realisations-desktop.md"
-  - Realisations Mobile & tests: "realisations-mobile&tests.md"
+  - Pages & Components: "pages-components.md"
+  - Desktop & Mobile screenshots: "desktop-mobile-screenshots.md"
+  - Tests : "tests.md"
   - Conclusion: "conclusion.md"

@@ -1,6 +1,6 @@
 # Desktop and Mobile Screenshots
 
-Click on an image for lightbox display
+!!! note "Cliquer sur l'image pour l'afficher"
 
 ## Home Page
 | Desktop | Mobile |
@@ -11,7 +11,7 @@ Click on an image for lightbox display
 ## Logement Page
 | Desktop | Mobile |
 |---------|---------|
-| ![Logement Desktop](https://github.com/ldnpto/ocr-p8-FrontEnd_location_immobiliere/blob/main/src/assets/images/Kasa-Logement.png?raw=true){ width="400" } | ![Logement Mobile](https://github.com/ldnpto/ocr-p8-FrontEnd_location_immobiliere/blob/main/src/assets/images/Kasa-mobile-Logement.png?raw=true){ width="200" } |
+| ![Logement Desktop](https://github.com/ldnpto/ocr-p8-FrontEnd_location_immobiliere/blob/main/src/assets/images/Kasa-logement.png?raw=true){ width="400" } | ![Logement Mobile](https://github.com/ldnpto/ocr-p8-FrontEnd_location_immobiliere/blob/main/src/assets/images/Kasa-mobile-Logement.png?raw=true){ width="200" } |
 | Logement details - Desktop view | Logement details - Mobile view |
 
 ## About Page

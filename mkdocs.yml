@@ -1,9 +1,10 @@
 site_name: Kasa documentation
 repo_url: https://github.com/ldnpto/ocr-p8-FrontEnd_location_immobiliere
-site_url: https://ldnpto.github.io/ocr-p8-FrontEnd_location_immobiliere
+site_url: https://ldnpto.github.io/ocr-p8-FrontEnd_location_immobiliere/docs
 site_description: Documentation for the Kasa project
 site_author: Olivier
 repo_name: OCR Projet 8 - Kasa Location immobilière
+site_dir: docs
 theme:
   name: material
   features:

@@ -46,7 +46,7 @@ export default function Collapse({ title, text }: CollapseProps) {
 			<div
 				ref={refHeight}
 				className={toggle ? "collapse__toggle animated" : "collapse__toggle"}
-				// style={{ height: toggle ? `${heightEl}` : "0px" }} 
+				style={{ height: toggle ? `${heightEl}` : "0px" }} 
 				>
 				<p>{formattedText}</p>
 			</div>
